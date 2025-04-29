@@ -1,0 +1,782 @@
+.checkout-wrapper {
+  padding: 1rem 3rem;
+
+}
+
+.go-back-wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.proceed-to-payment-container {
+  position: relative;
+  background-color: transparent;
+
+}
+
+.shipping-modal-container {
+  overflow-y: scroll;
+  padding: 2rem 1rem;
+}
+
+/* .checkout-input label {
+  margin-left: 1rem !important;
+  margin-top: 12px !important;
+} */
+
+
+.go-back-text {
+  font-size: 16px !important;
+  font-family: 'Uniform Bold' !important;
+  cursor: pointer;
+  margin-left: 0.5rem !important;
+  color: #5b5b5b;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.checkout-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.checkout-cart {
+  width: 100%;
+}
+
+.checkout-summary {
+  width: 35%;
+}
+
+.custom-divider {
+  width: 70%;
+  margin: 1rem 0 !important;
+  background-color: #e3e3e3;
+  height: 1px;
+}
+
+.option-item-checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem !important;
+}
+
+.option-key-checkout {
+  flex: 0 0 auto;
+  text-align: left;
+  padding-right: 8px;
+  /* Adjust spacing as needed */
+  font-family: "Uniform Bold" !important;
+  color: #222
+}
+
+.option-value-checkout {
+  flex: 1;
+  text-align: left;
+  font-family: "Uniform Medium" !important;
+  color: #4a4a4a
+}
+
+.faq-container {
+  width: 100%;
+}
+
+.checkout-billing {
+  width: 65%;
+}
+
+.total-checkout-container {
+  padding-right: 2rem !important;
+}
+
+.bumrah-payment-container {
+  width: 35%;
+}
+
+.faq-bumrah-banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.faq-container-header,
+.bumrah-payment-container-header {
+  background-color: #092853;
+  height: 150px;
+}
+
+.faq-bumrah-banner-container {
+  align-items: flex-start;
+}
+
+.product-image-checkout {
+  width: 200px;
+  height: 200px;
+}
+
+.order-page {
+  padding: 2rem 3rem;
+}
+
+.payment-bumrah-details {
+  align-items: flex-start;
+  height: 200px;
+  background-color: #EAF0F5;
+  position: relative;
+}
+
+.bumrah_image_faq {
+  height: 375px;
+  width: auto;
+  position: absolute;
+  bottom: -21px;
+  right: -40px;
+
+}
+
+.checkout-text-check {
+  font-family: "Uniform Light" !important;
+  font-size: 28px !important;
+  color: #092853 !important;
+  display: flex;
+}
+
+.checkout-text-out {
+  font-family: "Uniform Bold" !important;
+  font-size: 28px !important;
+}
+
+.checkout-container {
+  padding: 2rem 0 !important;
+}
+
+.checkout-cart {
+  padding: 1rem 0 !important;
+  height: max-content;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.total-checkout-text,
+.total-checkout-price {
+  font-size: 24px !important;
+  font-family: "Uniform Bold" !important;
+  color: #092853 !important;
+}
+
+.product-item {
+  padding: 1.5rem;
+  margin: 1rem !important;
+  box-shadow: 0 2px 10px 0 #d3d3d3;
+  /* width: 96%; */
+  border-radius: 8px;
+}
+
+.product-info {
+  padding: 0 1rem;
+}
+
+.product-name-checkout {
+  font-size: 20px !important;
+  font-family: "Uniform Bold" !important;
+  color: #092853 !important;
+}
+
+.action-container-checkout {
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  color: #092853;
+  font-size: 16px !important;
+}
+
+.action-container-checkout-mobile {
+  /* display: flex; */
+  gap: 1rem;
+  color: #092853;
+  font-size: 16px !important;
+  display: none;
+}
+
+.edit-product,
+.delete-product {
+  cursor: pointer;
+  font-size: 14px !important;
+
+}
+
+.edit-icon,
+.delete-icon {
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 0.5rem !important;
+}
+
+.checkout-summary {
+  padding: 2rem !important;
+  margin: 0 !important;
+  background-color: #EAF0F5;
+  border-radius: 8px;
+}
+
+.summary-text {
+  font-family: "Uniform Bold" !important;
+  font-size: 20px !important;
+  color: #092853 !important;
+  padding: 1rem;
+}
+
+.cart-summary-container {
+  max-height: 60vh;
+  height: max-content;
+  overflow-y: scroll;
+}
+
+.cart-summary-product {
+  padding: 1rem;
+}
+
+.product-checkout-info {
+  color: #092853;
+  font-size: 16px !important;
+  font-family: "Uniform Medium" !important;
+}
+
+.product-name-price {
+  margin-bottom: 1rem !important;
+}
+
+.totalPrice-container {
+  padding: 0.25rem 1rem !important;
+  /* padding-top: 2rem !important; */
+
+}
+
+.product-checkout-infoTotal {
+  color: #092853;
+  font-size: 28px !important;
+  font-family: "Uniform Bold" !important;
+}
+
+.faq-container-header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row !important;
+  padding-left: 2rem;
+}
+
+.faq-text {
+  font-family: "Uniform Light" !important;
+  font-size: 36px !important;
+  color: #fff !important;
+  display: flex;
+}
+
+.faq-text-bold {
+  font-family: "Uniform Bold" !important;
+  font-size: 36px !important;
+  margin-left: 0.5rem !important;
+  color: #fff !important;
+}
+
+.bumrah-payment-container-header {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column !important;
+  padding-left: 2rem;
+}
+
+.bumrah-payment-text-1 {
+  font-family: "Uniform Light" !important;
+  font-size: 22px !important;
+  color: #fff !important;
+}
+
+.bumrah-payment-text-2 {
+  font-family: "Uniform Bold" !important;
+  font-size: 22px !important;
+  color: #fff !important;
+}
+
+.bumrah-payment-text-3 {
+  font-family: "Uniform Medium" !important;
+  font-size: 18px !important;
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+.payment-bumrah-details {
+  padding: 1rem 2rem;
+}
+
+.payment-bumrah-details-text {
+  font-size: 16px !important;
+  color: #fff !important;
+  font-family: "Uniform Medium" !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.payment-faq-icon {
+  margin-right: 1rem !important;
+}
+
+.faq {
+  padding: 1rem 0;
+  margin: 1rem;
+  width: 65%;
+}
+
+.accordion-text {
+  font-size: 20px !important;
+  color: #092853 !important;
+  font-family: "Uniform Medium" !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.accordion-details {
+  font-size: 16px !important;
+  color: #8d8d8d !important;
+  font-family: "Uniform Medium" !important;
+}
+
+.proceed-to-payment {
+  background-color: #E87B1E;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: 16px !important;
+  font-family: "Uniform Medium" !important;
+  color: #fff !important;
+  cursor: pointer;
+  margin-top: 1rem !important;
+}
+
+.proceed-to-payment:active {
+  transform: translate(0px, 1px);
+}
+
+.empty-cart-text {
+  font-size: 18px !important;
+  color: #092853 !important;
+  font-family: "Uniform Medium" !important;
+}
+
+.checkout-address {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-address-container {
+  flex: 1;
+}
+
+.billing-shopping-address {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available !important;
+}
+
+.shipping-text-checkout {
+  font-size: 20px !important;
+  color: #092853;
+  font-family: "Uniform Bold" !important;
+}
+
+.address-text-checkout {
+  font-size: 16px !important;
+  color: #5b5b5b;
+  text-align: justify;
+}
+
+.edit-address {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer
+}
+
+.edit-icon,
+.edit-address {
+  font-size: 16px;
+}
+
+.payment-successful-text {
+  /* color:#E87B1E !important */
+}
+
+.checkout-product-title {
+  font-family: "Uniform Bold" !important;
+}
+
+@media screen and (max-width: 3001px) {
+
+  .go-back-text,
+  .edit-product,
+  .delete-product {
+    font-size: 18px !important;
+
+  }
+
+  .checkout-text-out,
+  .product-checkout-infoTotal.faq-text,
+  .faq-text-bold,
+  .checkout-text-check {
+    font-size: 36px !important;
+  }
+
+
+  .summary-text,
+  .accordion-text,
+  .product-name-checkout {
+    font-size: 24px !important;
+  }
+
+  .accordion-text {
+    font-size: 20px !important;
+  }
+
+  .product-checkout-info,
+  .payment-bumrah-details-text,
+  .accordion-details,
+  .action-container-checkout,
+  .proceed-to-payment {
+    font-size: 20px !important;
+  }
+
+  .bumrah-payment-text-1,
+  .bumrah-payment-text-2 {
+    font-size: 26px !important;
+  }
+
+  .bumrah-payment-text-3,
+  .empty-cart-text {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1701px) {
+
+  .go-back-text,
+  .edit-product,
+  .delete-product {
+    font-size: 14px !important;
+
+  }
+
+  .checkout-text-out,
+  .product-checkout-infoTotal.faq-text,
+  .faq-text-bold,
+  .checkout-text-check {
+    font-size: 28px !important;
+  }
+
+  .faq-text {
+    font-size: 28px !important;
+  }
+
+  .summary-text,
+  .accordion-text,
+  .product-name-checkout {
+    font-size: 20px !important;
+  }
+
+  .product-checkout-info,
+  .payment-bumrah-details-text,
+  .accordion-details,
+  .action-container-checkout,
+  .proceed-to-payment {
+    font-size: 16px !important;
+  }
+
+  .bumrah-payment-text-1,
+  .bumrah-payment-text-2 {
+    font-size: 22px !important;
+  }
+
+  .bumrah-payment-text-3,
+  .empty-cart-text {
+    font-size: 14px !important;
+  }
+
+}
+
+@media screen and (max-width: 1101px) {
+  .checkout-wrapper {
+    padding: 1rem;
+
+  }
+
+  .product-image-checkout {
+    width: 120px;
+    height: 120px;
+  }
+
+  .go-back-text,
+  .edit-product,
+  .delete-product {
+    font-size: 12px !important;
+
+  }
+
+  .checkout-text-out,
+  .product-checkout-infoTotal.faq-text,
+  .faq-text-bold,
+  .checkout-text-check {
+    font-size: 24px !important;
+  }
+
+  .faq-text {
+    font-size: 24px !important;
+  }
+
+  .summary-text,
+  .accordion-text,
+  .product-name-checkout {
+    font-size: 16px !important;
+  }
+
+  .product-checkout-info,
+  .accordion-details,
+  .action-container-checkout,
+  .proceed-to-payment {
+    font-size: 14px !important;
+  }
+
+  .bumrah-payment-text-1,
+  .bumrah-payment-text-2 {
+    font-size: 16px !important;
+  }
+
+  .bumrah-payment-text-3,
+  .empty-cart-text,
+  .payment-bumrah-details-text {
+    font-size: 12px !important;
+  }
+
+  .option-item-checkout {
+
+    margin-bottom: 0.5rem !important;
+  }
+
+  .checkout-container {
+    padding: 1rem 0 !important;
+  }
+
+  .product-item {
+    padding: 0.75rem;
+    margin: 1rem !important;
+    box-shadow: 0 2px 10px 0 #d3d3d3;
+    /* width: 96%; */
+    border-radius: 8px;
+  }
+
+  .checkout-summary {
+    padding: 1rem !important;
+    margin: 0 !important;
+  }
+
+  .bumrah-payment-container-header {
+    padding-left: 1rem;
+  }
+
+  .payment-bumrah-details {
+    padding: 1rem;
+  }
+
+  .payment-bumrah-details {
+    height: 120px;
+  }
+
+  .bumrah_image_faq {
+    height: 205px;
+    width: auto;
+    position: absolute;
+    bottom: -12px;
+    right: -15px;
+
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .checkout-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .checkout-cart {
+    width: 100%;
+  }
+
+  .checkout-summary {
+    width: 100%;
+  }
+
+  .faq-container {
+    width: 100%;
+  }
+
+  .bumrah-payment-container {
+    width: 100%;
+  }
+
+  .faq-bumrah-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .order-page {
+    padding: 0.5rem !important;
+  }
+
+  .faq {
+    padding: 1rem 0;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .bumrah_image_faq {
+    height: 300px;
+    width: auto;
+    position: absolute;
+    bottom: -16px;
+    right: -25px;
+
+  }
+
+  .shipping-modal-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .checkout-billing {
+    width: 100%;
+  }
+
+  .bumrah-payment-container {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .checkout-wrapper {
+    padding: 0rem;
+
+  }
+
+  .checkout-input {
+    width: 100% !important;
+  }
+
+  .action-container-checkout {
+    display: none;
+  }
+
+  .action-container-checkout-mobile {
+    display: flex;
+  }
+
+  .option-key-checkout {
+    max-width: 40%;
+    font-size: 12px !important;
+  }
+
+  .option-value-checkout {
+    font-size: 12px !important;
+  }
+
+  .checkout-billing {
+    width: 100%;
+  }
+
+  .bumrah-payment-container {
+    width: 100%;
+  }
+
+  .product-item {
+    /* padding: 0.25rem; */
+    margin: 1rem 0 !important;
+  }
+
+  .checkout-summary {
+    padding: 1.5rem 0 !important;
+    height: 40vh !important;
+    margin: 0.5rem 0 !important;
+  }
+
+
+  .proceed-to-payment-container {
+    position: fixed;
+    bottom: 0;
+    padding: 0.5rem 0;
+    background-color: #fff;
+    z-index: 99999999;
+  }
+
+  .bumrah_image_faq {
+    height: 275px;
+    width: auto;
+    position: absolute;
+    bottom: -21px;
+    right: 0px;
+
+  }
+
+  .billing-shopping-address {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .faq-text {
+    font-family: "Uniform Light" !important;
+    font-size: 24px !important;
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .edit-address {
+    font-size: 12px !important;
+  }
+
+  .edit-icon {
+    width: 14px !important;
+    height: 14px !important;
+    margin-right: 0.5rem !important;
+  }
+}

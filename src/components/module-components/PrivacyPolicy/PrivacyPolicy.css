@@ -1,0 +1,98 @@
+/* .PrivacyPolicy p strong {
+    color: #092853 !important;
+    font-size: 32px !important;
+    font-family: "Uniform Bold" !important;
+    text-transform: uppercase;
+    margin-left: 0.25rem !important;
+}
+.PrivacyPolicy p {
+    color: #092853 !important;
+    font-size: 1rem !important;
+    font-family: "Uniform Medium" !important;
+}
+.PrivacyPolicy p span{
+    color: #092853 !important;
+    font-size: 1rem !important;
+    font-family: "Uniform Medium" !important;
+} */
+
+
+.PrivacyPolicy ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.PrivacyPolicy ol li , 
+.PrivacyPolicy ol li strong {
+    margin-bottom: 1rem;
+    font-family: "Uniform Medium" !important;
+    font-size: 1.4rem !important;
+}
+br > strong {
+    color: red;
+}
+.PrivacyPolicy a{
+    color: #092853 !important;
+}
+
+.PrivacyPolicy {
+    padding: 0 2rem !important;
+}
+.policy-pages-main-title{
+    color: #092853 !important;
+    font-size: 32px !important;
+    font-family: "Uniform Bold" !important;
+    text-transform: uppercase;
+}
+.policy-pages-sub-title{
+    color: #092853 !important;
+    font-size: 20px !important;
+    font-family: "Uniform Bold" !important;
+    text-transform: uppercase;
+}
+.policy-pages-para{
+    color: #092853 !important;
+    font-size: 1rem !important;
+    font-family: "Uniform Medium" !important;
+    text-align: justify !important;
+    width: 100%;
+    display: block;
+}
+.policy-pages-mini-title{
+    color: #092853 !important;
+    font-size: 16px !important;
+    font-family: "Uniform Bold" !important;
+    text-transform: uppercase;
+}
+.PrivacyPolicy li {
+    color: #092853 !important;
+    font-size: 1rem !important;
+    font-family: "Uniform Medium" !important;
+    list-style: none;
+}
+.policy-pages-list-items{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.policy-pages-list-items > li{
+   font-family: "Uniform Bold" !important;
+   margin-bottom: 1rem !important;
+
+}
+.policy-pages-list-items > ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.policy-pages-list-items  ul  li{
+    list-style: disc !important;
+}
+.policy-pages-bold-text{
+    font-family: "Uniform Bold" !important;
+}
+@media screen and (max-width: 780px) {  
+    .PrivacyPolicy {
+        padding: 0 1rem !important;
+    }  
+}

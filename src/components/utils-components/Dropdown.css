@@ -1,0 +1,12 @@
+.header-icon {
+    margin: 0.1rem 0.2rem;
+    height: 18px !important;
+    width: 18px !important;
+    cursor: pointer;
+    /* margin: 0  !important; */
+}
+
+.header-person-outlined {
+    width: 20px !important;
+    height: 20px !important;
+}
