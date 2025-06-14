@@ -1,0 +1,10 @@
+.passwordIcon {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    right: 8px;
+    color: #092853;
+    width: 1.3rem;
+    height: 1.3rem;
+    cursor: pointer;
+}

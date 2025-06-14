@@ -1,0 +1,351 @@
+.international-section {
+  height: 70vh !important;
+}
+
+.international-dc {
+  height: 70vh !important;
+}
+
+.internatioan-dc {
+  height: fit-content;
+}
+
+.internatioan-dc:hover {
+  box-shadow: 1px 1px 10px 1px #ddd;
+}
+
+.discovery-center-international-swiper .swiper-slide {
+  width: 320px !important;
+  height: fit-content;
+  background-color: white;
+  margin-left: 0.8rem;
+  box-shadow: 1px 1px 5px 1px #ddd;
+}
+
+.discovery-center-international-swiper .swiper-slide-active {
+  width: 33vw !important;
+  height: fit-content;
+  background-color: white;
+  margin-left: 0.8rem;
+  box-shadow: 1px 1px 5px 1px #ddd;
+}
+
+.discovery_international_description {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  justify-content: space-between;
+  height: 240px !important;
+  background-color: #ffffff;
+}
+
+.discovery_short_name {
+  display: flex;
+}
+
+.discovery_short_name_international {
+  display: none;
+}
+
+.discovery-center-international-swiper .swiper-slide-active .discovery_short_name {
+  display: none;
+}
+
+.discovery-center-international-swiper .swiper-slide-active .discovery_center_description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: #ffffff
+}
+
+.discovery_center_icon {
+  width: 16px !important;
+  height: 16px !important;
+  object-fit: contain !important;
+}
+
+.custom_discovery_slide_image {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+
+}
+
+.internatioan-dc {
+  box-shadow: 1px 1px 5px 1px #ddd;
+  border-radius: 2px;
+}
+
+.discovery_center_address {
+  text-align: left;
+}
+
+.discovery_international_place {
+  font-size: 20px !important;
+}
+
+.discovery_international_name {
+  font-size: 14px !important;
+}
+
+.discovery_international_address {
+  font-size: 14px !important;
+  color: #5b5b5b !important;
+  font-family: "Uniform Medium" !important;
+}
+
+.discovery_center_international_contact {
+  width: 100%;
+}
+
+.discovery-center-international-swiper {
+  height: 75vh !important;
+}
+
+.internatioan-dc {
+  width: 30% !important;
+}
+
+@media screen and (max-width : 2901px) {
+  .international-section {
+    height: 60vh !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 350px;
+    width: 410px !important;
+    margin-right: 10px !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 33vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .custom_discovery_slide_image {
+    width: 100%;
+    height: 250px !important;
+  }
+
+  .internatioan-dc {
+    width: 20% !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .internatioan-dc {
+    width: 24% !important;
+  }
+}
+
+@media screen and (max-width : 1600px) {
+  .international-section {
+    height: 75vh !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+    width: 372px !important;
+    margin-right: 10px !important;
+  }
+
+  .internatioan-dc {
+    width: 20% !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 33vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .custom_discovery_slide_image {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width : 1025px) {
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 160px;
+    width: 320px !important;
+    margin-right: 10px !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 33vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .custom_discovery_slide_image {
+    width: 100%;
+    height: 250px !important;
+  }
+
+  .international-section {
+    height: 70vh !important;
+  }
+}
+
+@media screen and (max-width : 770px) {
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 115px;
+    width: 230px !important;
+    margin-right: 10px !important;
+  }
+
+  .internatioan-dc {
+    width: 45% !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 45vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .discovery_center_icon {
+    width: 16px !important;
+    height: 16px !important;
+    object-fit: contain !important;
+  }
+
+  .discovery_center_contact {
+    width: 95% !important;
+  }
+
+
+}
+
+@media screen and (max-width : 430px) {
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 160px;
+    width: 94vw !important;
+    margin-right: 10px !important;
+
+  }
+
+  .international-section {
+    height: 520px !important;
+  }
+
+  .internatioan-dc {
+    width: 95% !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 80vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .swiper-pagination-bullet {
+    width: 30px !important;
+  }
+
+  .discovery_international_place {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width : 385px) {
+  .international-section {
+    height: 520px !important;
+  }
+
+  .internatioan-dc {
+    width: 95% !important;
+  }
+
+  .discovery-center-international-swiper .swiper-slide-active {
+    width: 80vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .swiper-pagination-bullet {
+    width: 30px !important;
+  }
+
+  .discovery_international_place {
+    font-size: 16px !important;
+  }
+
+  .discovery_international_description {
+    height: 240px !important;
+  }
+}
+
+@media screen and (max-width : 350px) {
+  .discovery-center-international-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 160px;
+    width: 90vw !important;
+    margin-right: 10px !important;
+  }
+
+  .international-section .swiper-slide-active {
+    width: 80vw !important;
+    height: fit-content;
+    background-color: white;
+    margin-left: 0.8rem;
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+
+  .international-section {
+    height: 75vh !important;
+  }
+}

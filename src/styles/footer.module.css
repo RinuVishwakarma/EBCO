@@ -1,0 +1,10 @@
+.footerNavLink{
+    margin: 0 2rem !important;
+    cursor: pointer;
+}
+
+.footerContactDetails{
+    font-family:'Uniform Light' !important ;
+     display:inline-block !important;
+     margin-left: 1rem !important;
+    }

@@ -1,0 +1,518 @@
+.sustainability-text-container {
+    padding: 2rem 3rem !important;
+}
+
+.sustainabiltiy-text-header {
+    font-size: 28px !important;
+    font-family: "Uniform Light" !important;
+}
+
+.sustainabiltiy-text-header-bold {
+    font-size: 28px !important;
+    font-family: "Uniform Bold";
+}
+
+.sustain-text-description {
+    font-family: "Uniform Light" !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin: 1rem 0 !important;
+}
+
+.custom-tablist {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 !important;
+    /* border-bottom: 3px solid #dddddd; */
+}
+
+.custom-tab {
+    padding: 1rem;
+    cursor: pointer;
+    font-family: 'Uniform Bold';
+    text-align: center;
+    width: 50%;
+    font-size: 16px;
+    color: #092853;
+    position: relative;
+}
+
+.sustain-tab {
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+    font-family: "Uniform Light" !important;
+    padding: 1.5rem 0rem !important;
+    color: #092853 !important;
+    margin: 0 0rem !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    border-bottom: 1px solid #e7e7e7 !important;
+    height: 100%;
+}
+
+/* .sustain-tab.react-tabs__tab--selected{
+    border-bottom: 2px solid #E87B1E !important;
+} */
+.custom-tabs-container {
+    padding: 2rem !important;
+}
+
+.custom-tab-container {
+    /* max-width: 80%; */
+    align-items: flex-start;
+}
+
+.custom-tab-divider {
+    width: 1px;
+    height: 100%;
+    background: #09285334;
+}
+
+.custom-tab-header {
+    font-size: 40px !important;
+    font-family: 'Uniform Bold' !important;
+}
+
+.custom-tab-description {
+    font-size: 14px !important;
+    font-family: 'Uniform Light' !important;
+    text-transform: uppercase;
+    text-align: left;
+    color: #092853;
+}
+
+.custom-tab .custom-tab-header,
+.custom-tab .custom-tab-description {
+    /* opacity: 0.1; */
+}
+
+.custom-tab .tab-icon {
+    /* opacity: 0.4; */
+}
+
+.sustain-tab {
+    opacity: 0.5 !important;
+}
+
+.Mui-selected.sustain-tab {
+    opacity: 1 !important;
+    color: #092853 !important;
+    background-color: #e5e5e5 !important;
+}
+
+.react-tabs__tab--selected .tab-icon,
+.react-tabs__tab--selected .custom-tab-header,
+.react-tabs__tab--selected .custom-tab-description,
+.tab-active-custom {
+    opacity: 1 !important;
+    color: #092853 !important;
+}
+
+.react-tabs__tab--selected {
+    outline: none;
+    /* border-bottom: 3px solid #092853 !important;
+    margin-bottom: -2px !important;
+    border-width: 50%; */
+}
+
+.tab-active {
+    display: none;
+}
+
+/* Flex container for custom tab list */
+.tab-list {
+    display: flex;
+    align-items: center;
+    /* overflow-x: auto; Enable horizontal scrolling */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari, Opera) */
+.tab-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Individual tab styles */
+.custom-tab {
+    flex: 0 0 auto;
+    /* Maintain the original width of the tabs */
+    margin-right: 20px;
+    padding: 10px;
+    font-family: 'Uniform Bold';
+    /* Adjust font family as needed */
+    font-size: 16px;
+    /* Adjust font size as needed */
+    color: #092853;
+    /* Adjust text color as needed */
+    cursor: pointer;
+    position: relative;
+    width: 25vw;
+}
+
+.custom-tablist .react-tabs__tab--selected .tab-active {
+    display: block;
+    width: 90%;
+    height: 3px !important;
+    background-color: #E87B1E;
+    margin-bottom: -2px !important;
+    transition: all 0.3s ease-in;
+}
+
+.tab-list {
+    padding: 0 !important;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-between;
+    /* height: 70vh; */
+
+}
+
+.content-text {
+    width: 35%;
+    padding: 2rem !important;
+    overflow: hidden;
+}
+
+.desc-header {
+    font-size: 32px !important;
+    text-transform: uppercase;
+    text-align: left;
+    color: #092853;
+    font-family: 'Uniform Bold' !important;
+    margin-bottom: 1rem !important;
+}
+
+.desc-body {
+    font-size: 14px !important;
+    color: #092853;
+    font-family: 'Uniform medium' !important;
+    margin-bottom: 0.5rem !important;
+    text-align: justify;
+}
+
+.content-Image {
+    width: 65%;
+    position: relative;
+    height: 500px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 70%, #ffffffc1 85%, #ffffff 100%);
+}
+
+.content-Image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.custom-tab-box {
+    width: 100% !important;
+    margin: 0 0rem !important;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 columns */
+    gap: 12px;
+    /* Gap between images */
+
+    margin-bottom: 2rem !important;
+}
+
+.gallery-image-container {
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery-image {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.gallery-header {
+    padding: 2rem !important;
+}
+
+.gallery-header-text {
+    font-size: 28px !important;
+    color: #092853;
+    font-family: "Uniform Light" !important;
+}
+
+.gallery-header-text span {
+    font-family: "Uniform Bold" !important;
+
+}
+
+.sustainability-text-container p {
+    font-size: 16px !important;
+    color: #092853 !important;
+    font-family: 'Uniform Medium' !important;
+    margin-bottom: 0.5rem !important;
+    text-align: justify;
+}
+
+.sustainability-text-container p:first-child {
+    font-size: 16px !important;
+}
+
+.sustainability-text-container strong {
+    font-size: 24px !important;
+    font-family: "Uniform Bold" !important;
+    color: #092853 !important;
+}
+
+.custom-tabs-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.tab-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 0;
+    margin: 10px 0 !important;
+
+    list-style-type: none;
+}
+
+.sustain-scrollabletabs .MuiTabs-scrollButtons {
+    display: none !important;
+}
+
+.custom-tablist {
+    display: flex;
+    align-items: center;
+}
+
+.custom-tab {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.tab-arrow {
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #092853;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.tab-arrow.left {
+    left: 1rem;
+}
+
+.tab-arrow.right {
+    right: 1rem;
+}
+
+.tab-active-custom-bg {
+    background-color: #9d9d9d2c !important;
+    border-bottom: 3px solid #E87B1E !important;
+}
+
+
+@media screen and (max-width : 770px) {
+    .custom-tabs-container {
+        padding: 0rem !important;
+    }
+
+    .tab-list {
+        width: 100%;
+        padding: 1rem !important;
+        white-space: normal;
+    }
+
+    .tab-arrow {
+        display: none;
+    }
+
+    .tab-active-custom-bg {
+        background-color: #9d9d9d2c !important;
+        border-bottom: 2px solid #E87B1E !important;
+    }
+
+    .custom-tablist {
+        overflow: auto;
+    }
+
+    .custom-tablist::-webkit-scrollbar {
+        display: none;
+    }
+
+    .custom-tab {
+        width: 100% !important;
+    }
+
+    .react-tabs__tab--selected .tab-active {
+        display: block;
+        width: 50%;
+        height: 5px !important;
+        background-color: #E87B1E;
+        margin-bottom: -2px !important;
+        transition: all 0.3s ease-in;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* 5 columns */
+        gap: 12px;
+        /* Gap between images */
+
+        margin-bottom: 2rem !important;
+    }
+
+    .custom-tab-box {
+        width: 230px;
+        margin: 0 1rem !important;
+        padding: 0 1rem;
+    }
+
+    .tab-content {
+        flex-direction: column-reverse;
+    }
+
+    .content-Image,
+    .content-text {
+        width: 100%;
+        padding: 2rem 0 !important;
+    }
+
+    .content-Image {
+        height: auto !important;
+        padding: 1rem 0 !important;
+    }
+
+    .overlay-image {
+        display: none;
+    }
+
+    .tab-content {
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+
+    }
+
+    .custom-tablist {
+        justify-content: center;
+    }
+
+    .sustainability-text-container {
+        padding: 1rem !important;
+    }
+
+    .sustain-text-description {
+        font-size: 14px !important;
+    }
+
+    .gallery-image-container {
+        grid-column: span 3 !important;
+    }
+
+    .sustain-tab {
+        padding: 0.5rem !important;
+    }
+
+    .custom-tablist .react-tabs__tab--selected .tab-active {
+        display: block;
+        width: 90%;
+        height: 4px !important;
+        background-color: #E87B1E;
+        margin-bottom: -2px !important;
+        transition: all 0.3s ease-in;
+    }
+
+    .sustainability-text-container p:first-child {
+        font-size: 20px !important;
+    }
+
+    .tab-icon {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .custom-tab-header {
+        font-size: 24px !important;
+    }
+
+    .custom-tab-description {
+        font-size: 12px !important;
+    }
+
+    .custom-tab-container {
+        margin-right: 1rem !important;
+    }
+
+    .gallery-header {
+        padding: 0.5rem !important;
+    }
+
+    .sustain-scrollabletabs .MuiTabs-scrollButtons {
+        display: flex !important;
+    }
+
+    .gallery-header-text {
+        font-size: 24px !important;
+        color: #092853;
+        font-family: "Uniform Light" !important;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .sustainability-text-container p:first-child {
+        font-size: 16px !important;
+    }
+
+    .sustain-tab {
+        width: 125px !important;
+    }
+
+    .sustainability-text-container strong {
+        font-size: 21px !important;
+        font-family: "Uniform Bold" !important;
+        color: #092853 !important;
+    }
+
+    .desc-header {
+        font-size: 22px !important;
+    }
+
+    .content-Image,
+    .content-text {
+        width: 100%;
+        padding: 0.2rem 0 !important;
+    }
+}

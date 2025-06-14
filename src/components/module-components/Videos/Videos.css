@@ -1,0 +1,117 @@
+.video-news-container{
+    padding: 2rem !important;
+    min-height: 100vh;
+}
+.video-tabs .MuiTabs-indicator{
+    height: 68px !important;
+}
+.custom-video-tabs{
+    height: 70vh;
+}
+.video-tabs,
+.custom-video-tabs{
+    height: 550px !important;
+    position: sticky;
+    top: 10%;
+    width: 25vw !important;
+    background-color: #eaf0f5 !important;
+    border: none !important;
+    padding: 2rem 0 !important;
+}
+.packaging-chart-container{
+    padding: 2rem !important;
+}
+.description-tabs-container{
+    display: flex;
+}
+.packaging-chart{
+    padding: 1rem;
+    font-size: 16px !important;
+    font-family: "Uniform Bold" !important;
+    color: #ffffff !important;
+    text-transform: inherit !important;
+    background-color: #092853;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+}
+.desktop-view{
+    display: flex !important;
+}
+.mobile-view{
+    display: none !important;
+}
+.relations-tabs > div{
+    overflow: auto;
+}
+.MuiTabs-flexContainer::-webkit-scrollbar{
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+.relations-tabs .MuiTabScrollButton-horizontal{
+    width: 25px !important;
+    
+  }
+@media screen and (max-width : 1200px){
+    .custom-video-tabs{
+        height: 100vh;
+        height: min-content;
+        position: sticky;
+        top: 10%;
+        width: 25vw !important;
+        background-color: #eaf0f5 !important;
+        border: none !important;
+        padding: 2rem 0 !important;
+    }
+    .relations-tabs .MuiTabScrollButton-horizontal{
+        width: 25px !important;
+        
+      }
+}
+
+@media screen and (max-width : 770px){
+    .MuiTabs-indicator{
+        display: none !important;
+    }
+    .Mui-selected{
+        border-bottom: 2px solid #092853 !important;
+    }
+    .desktop-view{
+        display: none !important;
+    }
+    .mobile-view{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .video-news-container{
+        padding: 0 !important;
+    }
+    .description-tabs-container{
+        padding: 2rem !important;
+    }
+   .relations-tabs .div{
+       overflow: auto !important;
+   }
+   .relations-tabs .MuiTabScrollButton-horizontal{
+    width: 25px !important;
+    
+  }
+}
+@media screen and (max-width : 430px){
+    .description-tabs-container{
+        padding:1rem  0rem !important;
+    }
+    .search-filter-section{
+        flex-direction: column-reverse !important;
+        gap: 20px;
+        padding: 0 1rem !important;
+    }
+    .header-search-section{
+        width: 100% !important;
+    }
+    .relations-tabs .MuiTabScrollButton-horizontal{
+        width: 25px !important;
+        
+      }
+}

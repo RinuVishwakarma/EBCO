@@ -1,0 +1,274 @@
+.sustainability-text-container {
+    padding: 2rem 3rem !important;
+}
+
+.sustainabiltiy-text-header {
+    font-size: 28px !important;
+    font-family: "Uniform Light" !important;
+}
+
+.sustainabiltiy-text-header-bold {
+    font-size: 28px !important;
+    font-family: "Uniform Bold";
+}
+
+.investor-container-wrapper {
+    padding: 1.5rem !important;
+}
+
+.sustain-text-description {
+    font-family: "Uniform Light" !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    margin: 1rem 0 !important;
+}
+
+.investors-description-tabs-container {
+    margin: 2rem 1rem !important;
+    border-radius: 8px;
+    height: 100vh !important;
+}
+
+.custom-tabs .MuiTabs-indicator {
+    background-color: #ffffff !important;
+    background: url('/images/right.svg') no-repeat center !important;
+    background-position: center;
+    height: 68px !important;
+    right: 20px !important;
+    width: 10px;
+}
+
+.investor-text-container p strong {
+    color: #092853 !important;
+    font-size: 44px !important;
+    font-family: "Uniform Bold" !important;
+    text-transform: uppercase;
+    margin-left: 0.25rem !important;
+}
+
+.investor-text-container p {
+    color: #092853 !important;
+    font-size: 20px !important;
+    font-family: "Uniform Medium" !important;
+    margin-left: 0.25rem !important;
+    text-align: justify;
+    padding: 0.5rem !important;
+    margin: 0 0.5rem !important
+}
+
+.MuiTabs-scroller {
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.MuiTabs-flexContainer {
+    width: 100% !important;
+}
+
+.custom-tabs {
+    width: 25vw !important;
+    background-color: #eaf0f5 !important;
+    border: none !important;
+    padding: 2rem 0 !important;
+    margin: 0 !important;
+    font-family: "Uniform Medium" !important;
+    max-height: 420px !important;
+    height: 425px !important;
+
+}
+
+.custom-tab-panel {
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+.investor-tab {
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+    font-family: "Uniform Medium" !important;
+    padding: 1.5rem !important;
+    color: #092853 !important;
+    margin: 0 2rem !important;
+    align-items: flex-start !important;
+    text-align: left !important;
+    height: 68px !important;
+    border-bottom: none !important;
+    margin: 0 !important;
+    height: fit-content !important;
+}
+
+.custom-tab.Mui-selected {
+    color: #092853 !important;
+    font-family: "Uniform Bold" !important;
+}
+
+.custom-tabs .MuiTabs-indicator {
+    height: 68px !important;
+}
+
+.custom-tab:not(:last-child) {
+    border: none !important;
+}
+
+.sustain-tab {
+    border: none !important;
+}
+
+.desktop-view {
+    display: flex;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.relations-tabs>div>div {
+    width: auto;
+    overflow: auto;
+}
+
+.relations-tabs>div>div::-webkit-scrollbar {
+    display: none;
+}
+
+.investor-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns with equal width */
+    gap: 20px;
+    /* Adjust the gap between items as needed */
+    padding: 1rem;
+}
+
+.investor-year-text {
+    font-size: 24px !important;
+    font-family: "Uniform Light" !important;
+    color: #092853 !important;
+}
+
+.investor-year {
+    font-size: 24px !important;
+    color: #092853 !important;
+    font-family: "Uniform Bold" !important;
+}
+
+.investor-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem !important;
+    background-color: #fafcff !important;
+}
+
+.investor-content:hover {
+    background-color: #f3f8ff !important;
+}
+
+.investor-icon {
+    cursor: pointer;
+    margin-top: 1rem !important;
+}
+
+.career-listing {
+    padding: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .investor-text-container p strong {
+        color: #092853 !important;
+        font-size: 28px !important;
+        font-family: "Uniform Bold" !important;
+        text-transform: uppercase;
+        margin-left: 0.25rem !important;
+    }
+
+    .investor-text-container p {
+        font-size: 18px !important;
+    }
+
+    .investor-tab {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width : 770px) {
+    .desktop-view {
+        display: none;
+    }
+
+    .investor-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Three columns with equal width */
+        gap: 20px;
+        /* Adjust the gap between items as needed */
+        padding: 2rem;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .relations-tabs .MuiTabs-indicator {
+        display: none;
+    }
+
+    .relations-tabs .MuiButtonBase-root {
+        color: #ddd !important;
+        padding: 0.5rem 1.5rem !important
+    }
+
+    .relations-tabs .Mui-selected {
+        border-bottom: 2px solid #092853;
+        color: #092853 !important;
+    }
+
+    .investor-text-container p strong {
+        color: #092853 !important;
+        font-size: 24px !important;
+        font-family: "Uniform Bold" !important;
+        text-transform: uppercase;
+        margin-left: 0.25rem !important;
+    }
+
+    .investor-text-container {
+        color: #092853 !important;
+        font-size: 16px !important;
+        font-family: "Uniform Light" !important;
+        margin-left: 0.25rem !important;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .investor-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* Three columns with equal width */
+        gap: 20px;
+        /* Adjust the gap between items as needed */
+        padding: 2rem;
+        min-height: 50vh !important;
+    }
+
+    .investor-container-wrapper {
+        padding: 0rem !important;
+        padding-top: 0.5rem !important;
+    }
+
+    .investor-text-container p {
+        color: #092853 !important;
+        font-size: 14px !important;
+        font-family: "Uniform Medium" !important;
+        margin-left: 0.25rem !important;
+        text-align: justify;
+        padding: 0.5rem !important;
+        margin: 0 0.5rem !important
+    }
+
+    .investor-year,
+    .investor-year-text {
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,361 @@
+
+/* Carousel container styles */
+.carousel-container {
+    display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    overflow: hidden; /* Prevents overflow */
+}
+
+/* Carousel slide styles */
+.carousel-slide {
+    flex: 1 0 auto; /* Allows slides to grow and shrink */
+    height: 300px; /* Adjust slide height */
+    width: 200px; /* Adjust slide width */
+    margin-right: 3px; /* Adjust slide spacing */
+}
+  
+    .manufacturing-swiper  {
+    width: 100%;
+    height: 100%;
+  }
+  .manufacturing-swiper{
+    height: 85vh !important;
+  }
+
+  
+    .manufacturing-swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+      .manufacturing-swiper  {
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    width: 97%;
+  }
+  .manufacturing-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%;
+    width: 18.5vw !important;
+    margin-right: 10px !important;
+  }
+    .manufacturing-swiper .swiper-slide-active{
+    width:35vw !important;
+    height: 80%;
+    background-color: transparent;
+    transition: width 0.5s ease-in-out 0.1s, height 0.5s ease-in-out;
+
+    /* margin-left: 0.8rem; */
+  }
+    .manufacturing-swiper .swiper-slide-active div{
+    box-shadow: 1px 1px 5px 1px #ddd;
+  }
+  .manufacturing-swiper .swiper-slide-active .new_arrival_description{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    align-items: flex-start;
+}
+
+.swiper-pagination-bullet{
+    height: 2px !important;
+    width: 80px !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    background-color: #5B5B5B;
+}
+.manufacturing-swiper .swiper-slide .section_description{
+  display: none;
+}
+.manufacturing-swiper .swiper-slide-active .section_description{
+  display: flex;
+}
+.arrow{
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none ;
+    outline: none;
+    cursor: pointer;
+}
+.swiper-pagination-bullet-active{
+    background-color: #E87B1E !important;
+}
+.swiper-pagination{
+    display: block;
+}
+.custom-arrows{
+    display: flex;
+}
+.custom_new_arrival_title{
+    text-align: left;
+}
+.manufacturing_plant_title{
+  font-size: 20px !important;
+  font-family: "Uniform Bold" !important;
+  color: #01113C !important;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit to two lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+
+}
+
+.manufacturing_plant_location{
+  font-size: 16px !important;
+  color: #01113C !important;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Limit to two lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+  font-family: "Uniform Light" !important;
+}
+.swiper-button-lock{
+  display: block;
+}
+.custom-arrows-newArrival{
+  margin-top: -6rem !important;
+  display: flex;
+}
+.manufacturing-swiper .swiper-pagination{
+  bottom: 4% !important;
+}
+.manu_desc{
+  height: max-content !important;
+}
+.vertical_section{
+  padding: 0 !important;
+}
+@media screen and (max-width: 3001px) {
+  .manufacturing-swiper {
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px !important;
+    width: 97%;
+  }
+  .arrow{
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none ;
+    outline: none;
+    cursor: pointer;
+}
+.arrival-image{
+  height: 500px;
+}
+.manufacturing-swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;  
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+  width: 18.5vw !important;
+  margin-right: 10px !important;
+}
+  .manufacturing-swiper .swiper-slide-active{
+  width:45vw !important;
+  height: 80%;
+  background-color: transparent;
+  /* margin-left: 0.8rem; */
+}
+}
+  @media screen and (max-width: 2701px) {
+    .manufacturing-swiper {
+        margin-left: auto;
+        margin-right: auto;
+        height: 650px !important;
+        width: 97%;
+      }
+      .arrow{
+        padding: 0;
+        border-radius: 50%;
+        background-color: transparent;
+        border: none ;
+        outline: none;
+        cursor: pointer;
+    }
+    .arrival-image{
+      height: 450px;
+    }
+    .manufacturing-swiper .swiper-slide {
+      text-align: center;
+      font-size: 18px;  
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 50%;
+      width: 18.5vw !important;
+      margin-right: 10px !important;
+    }
+      .manufacturing-swiper .swiper-slide-active{
+      width:45vw !important;
+      height: 80%;
+      background-color: transparent;
+      /* margin-left: 0.8rem; */
+    }
+  }
+  
+  @media screen and (max-width: 1641px) {
+    .manufacturing-swiper{
+      height: 620px !important;
+    }
+      .arrow{
+        padding: 0;
+        border-radius: 50%;
+        background-color: transparent;
+        border: none ;
+        outline: none;
+        cursor: pointer;
+    }
+    .arrival-image{
+      height: 450px;
+    }
+    .manufacturing-swiper .swiper-slide {
+      text-align: center;
+      font-size: 18px;  
+      /* Center slide text vertically */
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      height: 50%;
+      width: 18.5vw !important;
+      margin-right: 10px !important;
+    }
+      .manufacturing-swiper .swiper-slide-active{
+      width:30vw !important;
+      height: 80%;
+      background-color: transparent;
+      margin-left: 0.8rem !important;
+    }
+    /* .manu_desc{
+      height: 60px !important;
+    } */
+
+  }
+  @media screen and (max-width: 1441px) {
+    .manufacturing-swiper{
+      height: 600px !important;
+    }
+    .arrival-image{
+      height: 400px;
+    }
+   
+    
+  }
+  @media screen and (max-width: 1025) {
+    
+  }
+  @media screen and (max-width: 770px) {
+      .manufacturing-swiper  .swiper-pagination{
+        display: none;
+    }
+    .custom-arrows-manufacturing{
+        display: none;
+    }
+    .custom-arrows-newArrival{
+      display: none;
+    }
+    .manufacturing-swiper{
+      height: 500px !important;
+    }
+    .manufacturing_plant_location{
+      font-size: 14px !important;
+    }
+    .manufacturing_plant_title{
+      font-size: 16px !important;
+    }
+    
+  }
+  @media screen and (max-width: 430px) {
+      
+    .manufacturing-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 95vw !important;
+    margin-right: 10px !important;
+  }
+  .manufacturing-swiper .swiper-slide-active{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 85vw !important;
+    margin-right: 10px !important;
+}
+  .manufacturing-swiper {
+    height: 390px !important;
+}
+.arrival-image {
+  height: 300px;
+}
+.manufacturing_section,.vertical_section{
+  padding: 0 1rem !important;
+}
+.vertical_section{
+  margin-left: 1rem !important;
+}
+  }
+  @media screen and (max-width: 385px) {
+      .manufacturing-swiper .swiper-slide {
+        text-align: center;
+        font-size: 18px;  
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50%;
+        width: 94vw !important;
+        margin-right: 10px !important;
+      }
+        .manufacturing-swiper .swiper-slide-active{
+        width:89vw !important;
+        height: 80%;
+        background-color: transparent;
+        /* margin-left: 1rem; */
+      }
+  }
+  @media screen and (max-width: 325px) {
+      .manufacturing-swiper .swiper-slide {
+        text-align: center;
+        font-size: 18px;  
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50%;
+        width: 94vw !important;
+        margin-right: 10px !important;
+      }
+        .manufacturing-swiper .swiper-slide-active{
+        width:80vw !important;
+        height: 80%;
+        background-color: transparent;
+        /* margin-left: 1rem; */
+      }
+  }
+
+
+  

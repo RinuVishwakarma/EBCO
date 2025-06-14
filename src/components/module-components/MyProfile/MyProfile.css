@@ -1,0 +1,73 @@
+.myProfile-tabs{
+    width: 100%;
+}
+
+
+.myProfile-container{
+    padding: 3rem;
+    background-color: #fbfbfb;
+}
+.myProfile-tabs .MuiButtonBase-root{
+    width: 200px ;
+    color: #8d8d8d !important;
+    align-items: flex-start;
+}
+.myProfile-tabs .Mui-selected{
+   color: #092853 !important;
+}
+
+.myProfile-tabs .MuiTabScrollButton-horizontal{
+    width: 25px !important;
+    margin-top: 1.2rem !important;
+  }
+
+@media screen and (max-width: 1025px) {
+    .myProfile-tabs .MuiButtonBase-root{
+        width: 170px ;
+        align-items: flex-start;
+    }
+    .myProfile-container{
+        padding: 1rem;
+        background-color: #fbfbfb;
+    }
+    .myProfile-tabs{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .myProfile-tabs{
+        width: 100%;
+    }
+   
+    .myProfile-tabs > div > div{
+        overflow: auto !important;
+        width: 100% !important;
+    }
+    .myProfile-tabs > div > div::-webkit-scrollbar{
+        display: none;
+    }
+    .myProfile-tabs .MuiButtonBase-root{
+        width: 180px ;
+        align-items: flex-start;
+    }
+    .myProfile-container{
+        padding: 0.5rem;
+        background-color: #ffffff;
+    }
+    .myProfile-tabs .MuiTabScrollButton-horizontal{
+        width: 25px !important;
+        margin-top: 1.2rem !important;
+      }
+}
+@media screen and (max-width: 430px) {
+    .myProfile-tabs .MuiButtonBase-root{
+        width: 150px ;
+        align-items: flex-start;
+    }
+    .myProfile-tabs .MuiTabScrollButton-horizontal{
+        width: 25px !important;
+        margin-top: 0.2rem !important;
+      }
+   
+}

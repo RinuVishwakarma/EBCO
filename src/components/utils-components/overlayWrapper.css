@@ -1,0 +1,100 @@
+.video-overlay-container {
+    width: 100% !important;
+    height: 0;
+    padding-bottom: 44%;
+    position: relative;
+    justify-content: flex-end !important;
+    overflow-x: hidden;
+}
+
+.image-overlay-container {
+    width: 100% !important;
+    height: 80vh;
+    position: relative;
+    justify-content: flex-end !important;
+    overflow-x: hidden;
+}
+
+.overlay-video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0 !important;
+}
+
+.overlay-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
+
+.overlay-text-logo-container {
+    /* background: linear-gradient(180deg, rgba(9, 40, 83, 0) 0%, #092853 70%, #092853 100%); */
+    /* background-color: #092853; */
+    width: 100%;
+    height: fit-content;
+    z-index: 2;
+    justify-content: flex-end !important;
+
+}
+
+.overlay-text-container>p {
+    color: #092853 !important;
+}
+
+.overlay-text-container>p>strong {
+    color: #092853 !important;
+}
+
+.overlay-text {
+    width: 100%;
+}
+
+.overlay-logo {
+    width: 35%;
+}
+
+@media screen and (max-width : 770px) {
+    .overlay-text {
+        width: 100% !important;
+    }
+
+    .video-overlay-container {
+        width: 100vw !important;
+        height: 0;
+        position: relative;
+        justify-content: flex-end !important;
+        overflow-x: hidden;
+    }
+
+    .image-overlay-container {
+        width: 100% !important;
+        height: 0;
+        padding-top: 57%;
+        position: relative;
+        justify-content: flex-end !important;
+        overflow-x: hidden;
+        background-color: red;
+    }
+
+
+}
+
+@media screen and (max-width : 380px) {
+
+    .video-overlay-container {
+        width: 100vw !important;
+        height: 0;
+        position: relative;
+        justify-content: flex-end !important;
+        overflow-x: hidden;
+    }
+}

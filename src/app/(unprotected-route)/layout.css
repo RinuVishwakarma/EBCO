@@ -1,0 +1,99 @@
+.bumrah_image {
+  width: auto !important;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+
+}
+
+.widget-open {
+  height: 60px;
+  display: flex;
+  width: auto;
+  border-radius: 4px;
+}
+
+.wide-padding {
+  padding: 1rem 2rem 1rem 1rem
+}
+
+.close_icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  cursor: pointer;
+  z-index: 1;
+  width: 16px !important;
+  height: 16px !important;
+  color: #FFFFFF;
+}
+
+.widget-title {
+  padding: 0rem 1rem 0rem 3rem;
+}
+
+.chat_icon {
+  /* visibility: hidden; */
+}
+
+.bumrah_image {
+  width: auto !important;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+}
+
+.widget-open {
+  display: flex;
+  width: 82px !important;
+  border-radius: 4px;
+  transition: padding 0.3s ease;
+}
+
+.wide-padding {
+  padding: 1rem 2rem 1rem 1rem;
+}
+
+
+.close_icon {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  cursor: pointer;
+  z-index: 1;
+  width: 16px !important;
+  height: 16px !important;
+  color: #FFFFFF;
+}
+
+.widget-title {
+  padding: 0rem 1rem 0rem 3rem;
+}
+
+.chat_icon {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.widget-open:hover .chat_icon {
+  opacity: 0;
+}
+
+.widget-open:hover .bumrah_image,
+.widget-open:hover .widget-title {
+  opacity: 1;
+}
+
+.bumrah_image,
+.widget-title {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.bumrah_image {
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.widget-open:hover {
+  width: auto !important;
+}

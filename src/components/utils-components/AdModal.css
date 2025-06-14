@@ -1,0 +1,17 @@
+@media screen and (max-width: 1700px) {
+    .ad-modal-content {
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .ad-modal-content {
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ad-modal-content {
+        width: 100% !important;
+    }
+}

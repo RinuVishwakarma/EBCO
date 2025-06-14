@@ -1,0 +1,463 @@
+.career-list-title {
+    color: #092853;
+    font-size: 28px !important;
+    font-family: "Uniform Medium" !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.career-list-place-container {
+    padding: 0.5rem !important;
+    margin: 0.5rem !important;
+}
+
+.career-list-place {
+    margin-left: 1rem !important;
+}
+
+.career-experience-container,
+.career-degree-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #8d8d8d63;
+    padding: 0.5rem 1rem !important;
+    border-radius: 50px;
+}
+
+.career-experience,
+.career-degree {
+    color: #5b5b5b;
+    margin-left: 0.5rem !important;
+}
+
+.career-experience-degree-container {
+    margin: 1rem 0 !important;
+}
+
+.career-list-place-container {
+    width: fit-content !important;
+}
+
+.career-list-place {
+    margin-left: 0.5rem !important;
+}
+
+.career-description {
+    color: #5b5b5b !important;
+    margin: 0.5rem 0 !important;
+    font-size: 16px !important;
+    font-family: "Uniform Medium" !important;
+}
+
+.career-submit-btn {
+    width: 30% !important;
+}
+
+.apply-btn {
+    border: none;
+    outline: none;
+    background-color: #092853;
+    color: #fff;
+    font-size: 16px !important;
+    font-family: "Uniform Bold" !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 50px;
+    margin-top: 1rem !important;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.apply-btn:active {
+    background-color: #0a2f63;
+    transform: translate(0, 2px);
+}
+
+.apply-btn-text {
+    margin-right: 0.5rem !important;
+}
+
+.apply-btn-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.career-heading-text {
+    font-size: 28px !important;
+    font-family: "Uniform Bold" !important;
+}
+
+.career-details-container {
+    padding: 2rem;
+}
+
+.job-opening-header {
+    font-size: 40px !important;
+    font-family: "Uniform Bold" !important;
+}
+
+.career-experience-degree-container {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.phone-input-custom input,
+.phone-input-custom-form input {
+    border: none !important;
+    padding: 0.25rem 0 !important;
+    color: #092853 !important;
+    font-family: "Uniform Bold" !important;
+}
+
+.phone-input-custom input:focus-visible,
+.phone-input-custom-form input:focus-visible {
+    outline: none !important;
+}
+
+.phone-input-custom,
+.phone-input-custom-form {
+    border-radius: 4px !important;
+    border: 1px solid #5b5b5b80;
+    width: 25%;
+}
+
+.contact_us_section {
+    padding: 2rem 4rem;
+}
+
+.contact_us_body {
+    align-items: stretch !important;
+}
+
+.career-apply-form-header {
+    font-size: 40px !important;
+    font-family: "Uniform Bold" !important;
+    margin-bottom: 1rem !important;
+}
+
+.dropzone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: #EAF0F5;
+    cursor: pointer;
+    height: 200px;
+
+}
+
+.dropzone:focus-visible {
+    outline: none;
+}
+
+.career-form {
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.career-forms-input {
+    width: 60%;
+}
+
+.contact_us_title {
+    font-size: 40px !important;
+}
+
+.contact_us_adress_section {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.office-title p {
+    font-size: 20px !important;
+}
+
+.office-contact {
+    display: flex;
+    width: 100%;
+    margin: 0.5rem 0;
+    font-family: 'Uniform Medium';
+    font-size: 16px !important;
+}
+
+.address-map {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+}
+
+.contact_us_form {
+    padding: 1rem;
+}
+
+.phone-input-custom-form {
+    width: 100% !important;
+}
+
+.input-label {
+    margin-bottom: 0.5rem;
+    font-size: 18px !important;
+    font-family: 'Uniform Medium';
+}
+
+select {
+    width: 100%;
+    outline: none;
+}
+
+.contact-us-input {
+    width: 100%;
+    outline: none;
+    padding: 0.7rem 1rem;
+    border-radius: 4px;
+    font-family: 'Uniform Medium';
+    font-size: 16px !important;
+
+}
+
+.contact-us-input::placeholder {
+    color: #8d8d8d !important;
+}
+
+.input-row {
+    margin: 0 0 0 0;
+    align-items: flex-start;
+    width: 100% !important;
+}
+
+/* Hiding the number input arrows */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+.important_contact_section {
+    padding: 2rem;
+}
+
+.important_contact_title {
+    font-size: 40px !important;
+}
+
+.input-section {
+    margin: 0 1rem 1rem 0;
+}
+
+
+.address-flex {
+    padding: 2rem;
+}
+
+.address-flex-box {
+    width: 33.3%;
+}
+
+.address-flex-box {
+    border-right: 1px solid;
+    padding: 1rem;
+    align-items: flex-start;
+}
+
+.address_title {
+    display: flex;
+    align-items: center;
+}
+
+.underline-decoration {
+    text-decoration: underline;
+}
+
+.contact-details {
+    font-size: 16px !important;
+}
+
+.contact_us_address {
+    width: 40%;
+}
+
+.contact_us_adress_section {
+    background-color: #EAF0F5 !important;
+}
+
+.career-apply-container {
+    margin-top: 2rem !important;
+}
+
+.contact_us_form {
+    width: 100%;
+}
+
+.input-section {
+    width: 100%;
+}
+
+.input-section-single {
+    width: 100%;
+}
+
+#query {
+    height: 44px;
+}
+
+.submit-btn {
+    margin-top: 1rem;
+}
+
+.phone-input-custom-form {
+    margin: 0 !important;
+}
+
+.address-container {
+    width: 50%;
+}
+
+.career-list-place {
+    color: #092853;
+}
+
+.contact_us_address {
+    margin-top: 0rem !important;
+}
+
+.drop-text {
+    color: #092853;
+    font-family: "Uniform Medium" !important;
+    font-size: 16px !important;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .job-opening-header,
+    .career-apply-form-header {
+        font-size: 28px !important;
+        font-family: "Uniform Bold" !important;
+    }
+
+    .career-list-title {
+        font-size: 18px !important;
+    }
+
+    .career-list-place,
+    .career-description,
+    .career-experience,
+    .career-degree {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .phone-input-custom {
+        width: 60%;
+    }
+
+    .career-experience-degree-container {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .contact_us_body {
+        flex-direction: column !important;
+    }
+
+    .contact_us_form {
+        width: 100%;
+    }
+
+    .contact_us_address {
+        width: 100%;
+    }
+
+    .dropzone {
+        height: 200px;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career-list-place-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .career-details-container {
+        padding: 1rem;
+    }
+
+    .career-list-place-container img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .career-list-place {
+        font-size: 12px !important;
+    }
+
+    .career-experience,
+    .career-degree {
+        color: #5b5b5b;
+        font-size: 12px !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .career-description,
+    .contact-us-input {
+        font-size: 14px !important;
+    }
+
+    .contact_us_form {
+        padding: 0;
+    }
+
+    .career-apply-form-header {
+        font-size: 28px !important;
+    }
+
+    .contact_us_address {
+        margin-top: 2rem !important;
+    }
+
+    .address-phone-container {
+        flex-direction: column !important;
+    }
+
+    .drop-text {
+        font-size: 14px !important;
+    }
+
+    .career-forms-input {
+        width: 100%;
+    }
+
+    .career-submit-btn {
+        width: 100% !important;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .phone-input-custom {
+        width: 100%;
+    }
+
+    .job-opening-header {
+        font-size: 28px !important;
+    }
+
+    .career-list-title {
+        font-size: 20px !important;
+    }
+}

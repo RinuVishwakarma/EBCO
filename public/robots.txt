@@ -1,0 +1,29 @@
+# Sitemap location
+Sitemap: https://ebco.in/sitemap.xml
+
+# Global rules
+User-agent: * 
+
+# Disallow server-side rendered routes or API routes that might be causing issues
+# Disallow: /api/
+# Disallow: /_next/data/
+
+# Specific rules for Google (no crawl-delay)
+# User-agent: Googlebot
+# Disallow: /api/
+# Disallow: /_next/data/
+
+# for images
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:
+
+# Block known aggressive or less useful bots
+
+
+
+
+
