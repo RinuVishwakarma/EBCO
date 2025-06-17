@@ -167,8 +167,7 @@ const BlogEvents = () => {
       const selectedCategory = categories.find(
         category => category.label === decodedItem,
       )
-      //console.log(selectedCategory);
-      // Set the isChecked property of the selected category to true
+      
       if (selectedCategory) {
        
         selectedCategory.isChecked = true
