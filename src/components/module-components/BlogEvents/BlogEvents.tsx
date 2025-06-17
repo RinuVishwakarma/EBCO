@@ -170,7 +170,7 @@ const BlogEvents = () => {
       //console.log(selectedCategory);
       // Set the isChecked property of the selected category to true
       if (selectedCategory) {
-        // Update the isChecked property of the selected category
+       
         selectedCategory.isChecked = true
 
         // Find and update isChecked property of all subcategories belonging to the selected category
